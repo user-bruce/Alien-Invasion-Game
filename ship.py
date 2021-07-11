@@ -5,6 +5,8 @@ class Ship:
     
     def __init__(self,ai_game):
         """Initialize ship and set its starting point"""
+        super().__init__()
+        
         self.screen = ai_game.screen
         
         #Load the image
